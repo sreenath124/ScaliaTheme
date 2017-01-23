@@ -60,6 +60,12 @@ header {
 .nav_links:hover {
     color: #58abb7;
 }
+.space_shuttle_icon {
+	color: #58abb7;
+	background: #fff;
+	padding: 12px 10px;
+	border-radius: 50%;
+}
 
 .banner {
     background: url('../assets/banner_image.png') no-repeat center;
