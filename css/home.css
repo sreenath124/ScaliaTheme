@@ -78,7 +78,7 @@ header {
 }
 
 .banner_inner {
-    width: 80%;
+    width: 100%;
     height: 100vh;
     display: table;
     margin: 0 auto;
@@ -93,7 +93,7 @@ header {
 
 .banner_heading {
     color: #fff;
-    font: 300 80px 'Roboto Condensed', sans-serif;
+    font: 300 40px 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     display: block;
     margin: 0 auto;
@@ -117,8 +117,8 @@ header {
     border-radius: 4px;
     padding: 5px 20px 5px 10px;
     color: #fff;
-    font: 300 22px/28px 'Roboto Condensed', sans-serif;
-    margin: 0 10px;
+    font: 300 18px/28px 'Roboto Condensed', sans-serif;
+    margin: 10px;
     border: none;
     cursor: pointer;
     text-transform: uppercase;
@@ -140,41 +140,42 @@ header {
 .sign_up {
     background: #66b4cd;
     text-align: center;
-    padding: 40px 0;
+    padding: 40px 10px;
 }
 
 .section_heading {
-    font: 300 48px/48px 'Roboto Condensed', sans-serif;
+    font: 300 28px/28px 'Roboto Condensed', sans-serif;
     color: #fff;
     text-transform: uppercase;
 }
 
 .section_description {
-    font: 300 19px/27px 'Source Sans Pro', sans-serif;
+    font: 300 16px/20px 'Source Sans Pro', sans-serif;
     color: #fff;
     padding: 20px 0;
 }
 
 .signup_form {
     padding: 20px 0;
+    text-align: center;
 }
 
 input[type="text"] {
     padding: 10px;
     background: #fff;
     color: #9fa9b5;
-    font: 300 26px/26px 'Source Sans Pro', sans-serif;
+    font: 300 20px/20px 'Source Sans Pro', sans-serif;
     border: none;
     border-radius: 4px;
+    display: block;
+    margin: 5px auto;
 }
 
 .signup_input {
-    max-width: 180px;
+    max-width: 200px;
 }
 
-.signup_input:nth-child(2) {
-    margin: 0 25px;
-}
+
 
 .sign_up_button {
     background: #3c4765;
@@ -222,7 +223,7 @@ input[type="text"] {
 
 .list_item_heading {
     color: #ff7070;
-    font: 300 36px/36px 'Roboto Condensed', sans-serif;
+    font: 300 30px/30px 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
 }
 
@@ -249,17 +250,10 @@ input[type="text"] {
     background-size: cover;
     min-height: 900px;
     position: relative;
+    padding: 40px 10px;
 }
 
 .banner_sec_inner {
-    position: absolute;
-    top: 50%;
-    -moz-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    width: 100%;
     max-width: 550px;
     text-align: left;
     padding: 40px;
@@ -269,14 +263,14 @@ input[type="text"] {
 
 .banner_sec_heading {
     color: #58abb7;
-    font: 300 74px/74px 'Roboto Condensed', sans-serif;
+    font: 300 40px/40px 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
 }
 
 .banner_sec_heading div {
     color: #4c5867;
-    font-size: 120px;
-    line-height: 120px;
+    font-size: 50px;
+    line-height: 50px;
 }
 
 .banner_sec_description {
@@ -286,10 +280,13 @@ input[type="text"] {
 
 .team_members {
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 10px;
 }
 .team_member_list {
-	padding: 30px 0;
+	padding: 30px 10px;
+}
+.member_list_item {
+	padding: 20px 10px;
 }
 .team_member_list li:nth-child(2) {
     margin: 10px 0;
@@ -340,7 +337,7 @@ padding: 10px 0;
 
 .design_heading,
 .about_scalia_heading {
-    font: 300 78px 'Roboto Condensed', sans-serif;
+    font: 300 48px 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
 }
 
@@ -366,11 +363,11 @@ padding: 10px 0;
 }
 
 .columns {
-    -moz-columns: 4;
-    -webkit-columns: 4;
-    -ms-columns: 4;
-    -o-columns: 4;
-    columns: 4;
+    -moz-columns: 1;
+    -webkit-columns: 1;
+    -ms-columns: 1;
+    -o-columns: 1;
+    columns: 1;
     -moz-column-gap: 20px;
     -webkit-column-gap: 20px;
     -ms-column-gap: 20px;
@@ -379,7 +376,7 @@ padding: 10px 0;
     text-align: left;
     color: #626f80;
     font: 300 19px/27px 'Source Sans Pro', sans-serif;
-    padding: 20px 0;
+    padding: 20px 10px;
 }
 
 .about_scalia {
@@ -445,7 +442,7 @@ padding: 10px 0;
 
 .trial_input {
     width: 50%;
-    min-width: 300px;
+    /* min-width: 300px; */
 }
 
 .free_trial_button {
@@ -521,6 +518,9 @@ padding: 10px 0;
 	color: #4c5867;
 	font:  300 40px/40px 'Roboto', sans-serif ;
 }
+.statistics_list li {
+	padding: 20px;
+}
 .statistics_list p {
 	color: #384454;
 	font: 200 22px/22px 'Source Sans Pro', sans-serif;
@@ -549,8 +549,8 @@ padding: 10px 0;
 
 .nav_list {
     text-align: center;
-    padding: 20px 0;
-    float: left;
+    padding: 20px;
+    display: block;
 }
 
 .nav_list_item {
@@ -563,9 +563,9 @@ padding: 10px 0;
 }
 
 .social_icon_container {
-    padding: 35px 0;
+    padding: 35px 10px;
     color: #4c5867;
-    float: right;
+    display: block;
 }
 
 .social_icon_container i {
@@ -576,7 +576,7 @@ padding: 10px 0;
     background: url('../assets/footer_background.png') no-repeat center top;
     background-size: cover;
     min-height: 400px;
-    padding: 30px 0;
+    padding: 30px 20px;
 }
 
 .details h4 {
@@ -622,6 +622,12 @@ padding: 10px 0;
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
 }
+.contacts,
+.recent_posts,
+.newsletters{
+	padding: 20px 10px;
+	box-sizing: border-box;
+}
 .scrolled_header{
 	background: #fff;
 	box-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
@@ -652,19 +658,44 @@ padding: 10px 0;
     .nav_links {}
     .nav_links:hover {}
     .banner {}
-    .banner_inner {}
+    .banner_inner {
+    	width: 80%;
+    }
     .banner_caption {}
-    .banner_heading {}
+    .banner_heading {
+    	font-size: 80px;
+    }
     .banner_content {}
-    .banner_buttons {}
+    .buttons {
+    	font-size: 22px;
+    }
     .caret_right {}
     .buy_button {}
     .learn_more {}
     .sign_up {}
-    .section_heading {}
+    .section_heading {
+    	font-size: 48px;
+    	line-height: 48px;
+    }
+    .section_description{
+    	font-size: 19px;
+    	line-height: 27px;
+    }
+    input[type="text"] {
+    	font-size: 26px;
+    	line-height: 26px;
+    	display: inline-block;
+    }
+    .signup_input:nth-child(2) {
+    margin: 0 25px;
+}
     .sign_up_button {}
     .features {}
     .timeline {}
+    .list_item_heading{
+    	font-size: 36px;
+    	line-height: 36px;
+    }
     .timeline_description {
         display: inline-block;
         max-width: 350px;
@@ -683,6 +714,14 @@ padding: 10px 0;
         display: inline-block;
         vertical-align: middle;
     }
+    .banner_sec_heading{
+    	font-size: 74px;
+    	line-height: 74px;
+    }
+    .banner_sec_heading div {
+    	font-size: 120px;
+    	line-height: 120px;
+    }
     .member_list_item {
         display: inline-block;
         vertical-align: top;
@@ -691,13 +730,32 @@ padding: 10px 0;
     .team_member_list li:nth-child(2) {
         margin: 0 10px;
     }
+    .design_heading,
+.about_scalia_heading{
+	font-size: 78px;
+	line-height: 78px;
+}
 	.statistics_list li {
 		display: inline-block;
 		vertical-align: top;
 		padding: 0 20px;
 	}
-
-
+	.columns {
+		-moz-columns: 4;
+		-webkit-columns: 4;
+		-ms-columns: 4;
+		-o-columns: 4;
+		columns: 4;
+	}
+	.trial_input {
+		max-width: 300px;
+	}
+	.nav_list{
+		float: left;
+	}
+	.social_icon_container{
+		float: right;
+	}
     .contacts,
     .recent_posts,
     .newsletters {
