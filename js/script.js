@@ -11,6 +11,45 @@ $(document).ready(function() {
         maxItems:5
     });
 
+    $('.flexslider_splash').flexslider({
+        animation: "slide",
+        animationLoop: true,
+        itemWidth:200,
+        itemMargin:20,
+        slideshow: true,
+        slideshowSpeed: 6000,
+        controlNav: false,
+        directionNav: false,
+        maxItems:3
+    });
+
+    $('.flex_slider_news').flexslider({
+        animation: "slide",
+        animationLoop: true,
+        itemWidth:420,
+        itemMargin:10,
+        slideshow: true,
+        slideshowSpeed: 6000,
+        controlNav: false,
+        directionNav: false,
+        maxItems:3
+    });
+
+    $('.flexslider_client').flexslider({
+        animation: "slide",
+        animationLoop: true,
+        itemWidth:400,
+        itemMargin:30,
+        slideshow: true,
+        slideshowSpeed: 4000,
+        controlNav: true,
+        directionNav: false,
+        maxItems:1
+    });
+
+
+
+
     $(document).on('scroll', function() {
        if($(window).scrollTop()>=10){
         $('header').addClass('scrolled_header');
