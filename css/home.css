@@ -31,13 +31,14 @@ header {
 
 .header_nav {
     display: none;
-    
 }
-.menu{
-	color: #fff;
-	float: right;
-	margin:  20px;
+
+.menu {
+    color: #fff;
+    float: right;
+    margin: 20px;
 }
+
 .logo {
     float: left;
     background: url('../assets/scalia_logo.png') no-repeat center top;
@@ -60,24 +61,27 @@ header {
 .nav_links:hover {
     color: #58abb7;
 }
+
 .space_shuttle_icon {
-	color: #58abb7;
-	background: #fff;
-	padding: 12px 10px;
-	border-radius: 50%;
+    color: #58abb7;
+    background: #fff;
+    padding: 12px 10px;
+    border-radius: 50%;
 }
+
 
 .banner {
     background: url('../assets/banner_image.png') no-repeat center;
     background-size: cover;
-    min-height: 100vh;
+    height: 100%;
     width: 100%;
+    padding-top: 80px;
     text-align: center;
 }
 
 .banner_inner {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: table;
     margin: 0 auto;
 }
@@ -173,8 +177,6 @@ input[type="text"] {
     max-width: 200px;
 }
 
-
-
 .sign_up_button {
     background: #3c4765;
     margin-left: 25px;
@@ -182,11 +184,45 @@ input[type="text"] {
 
 .features {
     width: 100%;
-    background: url('../assets/rocket.png') no-repeat center top;
+    background: url('../assets/rocket_back.jpg') no-repeat center top;
+    min-height: 950px;
     background-size: cover;
-    min-height: 900px;
     text-align: center;
     padding: 30px 0;
+}
+
+.feature_list_left,
+.feature_list_right{
+    padding: 30px 10px;
+}
+.feature_list_item {
+    padding: 20px;
+
+}
+
+.feature_heading {
+    color: #fff;
+    font: 300 29px/30px 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+.feature_content {
+    color: #fff;
+    font: 300 17px/24px 'Source Sans Pro', sans-serif;
+}
+
+.fa_icon {
+    color: #627F99;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.fa_icon_left {
+    background: #C2FFE9;
+}
+
+.fa_icon_right {
+    background: #fff4c6;
 }
 
 .history {
@@ -280,12 +316,15 @@ input[type="text"] {
     text-align: center;
     padding: 50px 10px;
 }
+
 .team_member_list {
-	padding: 30px 10px;
+    padding: 30px 10px;
 }
+
 .member_list_item {
-	padding: 20px 10px;
+    padding: 20px 10px;
 }
+
 .team_member_list li:nth-child(2) {
     margin: 10px 0;
 }
@@ -299,34 +338,35 @@ input[type="text"] {
     border-radius: 50%;
     max-width: 150px;
 }
-.member_name{
-	color: #58abb7;
-	font: 300 25px 'Roboto', sans-serif;
-padding: 5px 0;
 
+.member_name {
+    color: #58abb7;
+    font: 300 25px 'Roboto', sans-serif;
+    padding: 5px 0;
 }
+
 .member_designation {
-	color: #aaa;
-	font:  300 16px 'Source Sans Pro', sans-serif ;
-
+    color: #aaa;
+    font: 300 16px 'Source Sans Pro', sans-serif;
 }
+
 .member_phone {
-	color: #58abb7;
-	font:  300 22px 'Roboto', sans-serif ;
-padding: 5px 0;
-
+    color: #58abb7;
+    font: 300 22px 'Roboto', sans-serif;
+    padding: 5px 0;
 }
+
 .about_member {
-	color:#626f80 ;
-	font: 300 19px 'Source Sans Pro', sans-serif  ;
-padding: 5px 0;
-
+    color: #626f80;
+    font: 300 19px 'Source Sans Pro', sans-serif;
+    padding: 5px 0;
 }
+
 .contact_member {
-padding: 10px 0;
-	color: #58abb7;
-
+    padding: 10px 0;
+    color: #58abb7;
 }
+
 .unique_design {
     width: 100%;
     text-align: center;
@@ -452,8 +492,9 @@ padding: 10px 0;
     background-size: contain;
     width: 100%;
     text-align: center;
-/*     min-height: 700px;
- */    padding: 40px 0;
+    /*     min-height: 700px;
+ */
+    padding: 40px 0;
 }
 
 .offices_inner {
@@ -491,38 +532,48 @@ padding: 10px 0;
 .clients_heading span {
     color: #58abb7;
 }
+
 .statistics {
-	padding: 40px 0 0;
-	margin: 20px 0 0;
+    padding: 40px 0 0;
+    margin: 20px 0 0;
 }
+
 .statistics_list i {
-	padding: 15px;
-	border-radius: 50%;
-	color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    color: #fff;
 }
+
 .deliveries i {
-	background: #55A3B1;
+    background: #55A3B1;
 }
-.projects i{
-	background: #EF6B6C;
+
+.projects i {
+    background: #EF6B6C;
 }
+
 .happy_clients i {
-	background: #EF956B;
+    background: #EF956B;
 }
-.downloads i{
-	background: #475462;
+
+.downloads i {
+    background: #475462;
 }
+
 .statistics h5 {
-	color: #4c5867;
-	font:  300 40px/40px 'Roboto', sans-serif ;
+    color: #4c5867;
+    font: 300 40px/40px 'Roboto', sans-serif;
 }
+
 .statistics_list li {
-	padding: 20px;
+    padding: 20px;
 }
+
 .statistics_list p {
-	color: #384454;
-	font: 200 22px/22px 'Source Sans Pro', sans-serif;
+    color: #384454;
+    font: 200 22px/22px 'Source Sans Pro', sans-serif;
 }
+
 .flexslider {
     overflow: hidden;
     background: transparent;
@@ -555,9 +606,10 @@ padding: 10px 0;
     display: inline-block;
     font: 300 17px/20px 'Roboto', sans-serif;
 }
+
 .nav_list_item a:hover,
-.social_icon_container i:hover{
-	color: #ff7070;
+.social_icon_container i:hover {
+    color: #ff7070;
 }
 
 .social_icon_container {
@@ -604,100 +656,142 @@ padding: 10px 0;
     display: inline-block;
     max-width: 265px;
 }
+
 .newsletters input {
-	width: 55%;
-	background: #2c2e3a;
-	color: #667383;
-	margin: 0;
-	border-top-right-radius: 0;
-	border-bottom-right-radius: 0;
+    width: 55%;
+    background: #2c2e3a;
+    color: #667383;
+    margin: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
+
 .newsletters button {
-	margin:  0;
-	background: #4c5867;
-	border-top-right-radius: 4px;
-	border-bottom-right-radius: 4px;
-	border-top-left-radius: 0;
-	border-bottom-left-radius: 0;
+    margin: 0;
+    background: #4c5867;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
+
 .contacts,
 .recent_posts,
-.newsletters{
-	padding: 20px 10px;
-	box-sizing: border-box;
+.newsletters {
+    padding: 20px 10px;
+    box-sizing: border-box;
 }
-.scrolled_header{
-	background: #fff;
-	box-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+
+.scrolled_header {
+    background: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
 }
-.scrolled_logo{
-	background: url('../assets/scalia_logo_small.png') no-repeat center top;
-	background-size: contain;
+
+.scrolled_logo {
+    background: url('../assets/scalia_logo_small.png') no-repeat center top;
+    background-size: contain;
 }
-.scrolled_menu{
-	color: #000;
+
+.scrolled_menu {
+    color: #000;
 }
-.scrolled_nav_links{
-	color: #58abb7;
+
+.scrolled_nav_links {
+    color: #58abb7;
 }
 
 @media screen and (min-width: 1024px) {
     .header_contents {}
     .header_nav {
-    	display: inline-block;
-    	vertical-align: middle;
-    padding: 12px 0;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 12px 0;
     }
-    #menu_btn{
-    	display: none;
+    #menu_btn {
+        display: none;
     }
     .logo {}
-    .header_nav li {
-    	
+    .header_nav li {}
+    .nav_links {}
+    .nav_links:hover {}
+    .banner {
+        min-height: 100vh;
     }
-    .nav_links {
-		
-    }
-    .nav_links:hover {
-    }
-    .banner {}
     .banner_inner {
-    	width: 80%;
+        width: 80%;
+        height: 100vh;
     }
     .banner_caption {}
     .banner_heading {
-    	font-size: 80px;
+        font-size: 80px;
     }
     .banner_content {}
     .buttons {
-    	font-size: 22px;
+        font-size: 22px;
     }
     .caret_right {}
     .buy_button {}
     .learn_more {}
     .sign_up {}
     .section_heading {
-    	font-size: 48px;
-    	line-height: 48px;
+        font-size: 48px;
+        line-height: 48px;
     }
-    .section_description{
-    	font-size: 19px;
-    	line-height: 27px;
+    .section_description {
+        font-size: 19px;
+        line-height: 27px;
     }
     input[type="text"] {
-    	font-size: 26px;
-    	line-height: 26px;
-    	display: inline-block;
+        font-size: 26px;
+        line-height: 26px;
+        display: inline-block;
     }
     .signup_input:nth-child(2) {
-    margin: 0 25px;
-}
+        margin: 0 25px;
+    }
     .sign_up_button {}
-    .features {}
+    .features {
+        background: url('../assets/rocket.png') no-repeat center top;
+        background-size: cover;
+    }
+    .feature_list_left,
+    .feature_list_right {
+        width: 40%;
+        max-width: 450px;
+        padding: 30px 10px;
+        box-sizing: border-box;
+        position: relative;
+        -moz-transform: translateY(5%);
+        -webkit-transform: translateY(5%);
+        -ms-transform: translateY(5%);
+        -o-transform: translateY(5%);
+        transform: translateY(5%);
+    }
+    .feature_inner {
+        width: 75%;
+        display: inline-block;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .feature_icon {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .feature_list_item {
+        padding: 20px 0;
+    }
+    .feature_list_left {
+        float: left;
+        text-align: right;
+    }
+    .feature_list_right {
+        float: right;
+        text-align: left;
+    }
     .timeline {}
-    .list_item_heading{
-    	font-size: 36px;
-    	line-height: 36px;
+    .list_item_heading {
+        font-size: 36px;
+        line-height: 36px;
     }
     .timeline_description {
         display: inline-block;
@@ -717,13 +811,13 @@ padding: 10px 0;
         display: inline-block;
         vertical-align: middle;
     }
-    .banner_sec_heading{
-    	font-size: 74px;
-    	line-height: 74px;
+    .banner_sec_heading {
+        font-size: 74px;
+        line-height: 74px;
     }
     .banner_sec_heading div {
-    	font-size: 120px;
-    	line-height: 120px;
+        font-size: 120px;
+        line-height: 120px;
     }
     .member_list_item {
         display: inline-block;
@@ -734,31 +828,31 @@ padding: 10px 0;
         margin: 0 10px;
     }
     .design_heading,
-.about_scalia_heading{
-	font-size: 78px;
-	line-height: 78px;
-}
-	.statistics_list li {
-		display: inline-block;
-		vertical-align: top;
-		padding: 0 20px;
-	}
-	.columns {
-		-moz-columns: 4;
-		-webkit-columns: 4;
-		-ms-columns: 4;
-		-o-columns: 4;
-		columns: 4;
-	}
-	.trial_input {
-		max-width: 300px;
-	}
-	.nav_list{
-		float: left;
-	}
-	.social_icon_container{
-		float: right;
-	}
+    .about_scalia_heading {
+        font-size: 78px;
+        line-height: 78px;
+    }
+    .statistics_list li {
+        display: inline-block;
+        vertical-align: top;
+        padding: 0 20px;
+    }
+    .columns {
+        -moz-columns: 4;
+        -webkit-columns: 4;
+        -ms-columns: 4;
+        -o-columns: 4;
+        columns: 4;
+    }
+    .trial_input {
+        max-width: 300px;
+    }
+    .nav_list {
+        float: left;
+    }
+    .social_icon_container {
+        float: right;
+    }
     .contacts,
     .recent_posts,
     .newsletters {

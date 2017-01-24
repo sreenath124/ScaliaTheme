@@ -18,11 +18,28 @@ main{
 .banner_splash{
 	background: url('../assets/splash_assets/banner_img.jpg') no-repeat center top;
 	background-size: cover;
-	min-height: 300px;
+	min-height: 400px;
+	text-align: center;
+}
+.splash_banner_content {
+	position: relative;
+	padding: 30px 10px;
+}
+.scalia_logo_banner {
+	float: left;
+	color: #fff;
+	font: 800 40px/45px 'Roboto Condensed', sans-serif;
+}
+.scalia_caption{
+	float: right;
+	color: #fff;
+	width: 50%;
+	font: 300 35px/35px 'Source Sans Pro', sans-serif;
 }
 .features_splash{
 	padding: 20px;
 	text-align: center;
+
 }
 .list {
 	width: 90%;
@@ -150,6 +167,10 @@ main{
 	vertical-align: top;
 	line-height: 34px;
 }
+.news_icon p{
+	font: 300 16px/20px 'Source Sans Pro', sans-serif  ;
+	color: #969797;
+}
 
 .news_description{
 	display: inline-block;
@@ -248,6 +269,7 @@ main{
 }
 .image_tile img {
 	max-width: 100px;
+	filter: grayscale(1);
 }
 .clear{
 	clear: both;
@@ -259,6 +281,77 @@ main{
 }
 .flexslider_client li {
 	max-width: 500px;
+}
+.authors {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	padding: 50px 0;
+	min-height: 300px;
+	box-sizing: border-box;
+}
+.flexslider_authors{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	padding: 50px 0;
+} 
+.author_list_item{
+	width: 100%;
+
+}
+.author_list_item img {
+	border-radius: 50%;
+}
+.author_description {
+	font: italic 300 24px/27px 'Roboto', sans-serif;
+	color: #626f80;
+}
+.author_name {
+	font: 300 20px/25px 'Source Sans Pro', sans-serif ;
+	color: #58abb7;
+}
+.author_designation {
+	font: 300 19px/25px 'Source Sans Pro', sans-serif ;
+	color:#626f80 ;
+}
+.quotes{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0px;
+	
+}
+.offer_container{
+	padding: 30px;
+}	
+.offer_container,
+.offer {
+	text-align: center;
+}
+.offer{
+	max-width: 400px;
+	margin:  0 auto;
+}
+.heading_container {
+		border-radius: 50%;
+	background: #fff;
+	padding: 20px;
+	display: inline-block;
+}
+.offer_heading {
+	font: 300 30px/35px 'Roboto Condensed', sans-serif;
+}
+.offer_section {
+	background: #F1F5F8;
+	padding: 10px;
+	border-radius: 4px;
+}
+.order_button {
+	background: #58ABB7;
+}
+.offer_section .description {
+	border-bottom: 5px dotted #fff;
 }
 @media screen and (min-width: 1024px) {
 	.list_item{
