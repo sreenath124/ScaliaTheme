@@ -378,9 +378,13 @@ main{
 	background: #F1F5F8;
 	padding: 10px;
 	border-radius: 4px;
+	min-height: 440px;
+	position: relative;
 }
 .order_button {
 	background: #58ABB7;
+	
+
 }
 .offer_section .description {
 	border-bottom: 5px dotted #fff;
@@ -423,5 +427,6 @@ main{
 	.offer {
 		display: inline-block;
 		min-height: 300px;
+		vertical-align: top;
 	}
 }
