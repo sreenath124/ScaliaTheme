@@ -148,9 +148,20 @@ main{
 	overflow: hidden;
 }
 .flex_slider_news {
-	padding: 40px 0;
+	padding: 60px 0;
 	overflow: hidden;
-
+	position: relative;
+}
+.flex_slider_news .flex-control-nav {
+	bottom: 0;
+}
+.flex_slider_news .flex-control-paging li a {
+	width: 20px;
+	height: 20px;
+	background: rgba(128, 128, 128, .3);
+}
+.flex_slider_news .flex-control-paging li a.flex-active {
+	background: #FF7070;
 }
 .news_list_item{
 	text-align: left;
@@ -187,6 +198,7 @@ main{
 }
 .read_news{
 	background: #56396C;
+	margin-top: 30px;
 }
 .purchase {
 	padding: 100px 0;
@@ -330,9 +342,11 @@ main{
 	text-align: center;
 }
 .offer{
-	max-width: 400px;
-	margin:  10px auto;
+	margin:  5px auto;
 	padding: 20px 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 .offer:nth-child(3){
 	position: relative;
@@ -389,6 +403,25 @@ main{
 .offer_section .description {
 	border-bottom: 5px dotted #fff;
 }
+
+.flexslider_authors .flex-direction-nav a {
+	font-size: 0;
+}
+
+.flexslider_authors .flex-direction-nav a.flex-next::before {
+		content: '';
+		width: 0;
+		height: 0;
+		border-top: 10px solid transparent ;
+		border-bottom: 10px solid transparent;
+		border-left: 10px solid black;
+		right: 0;
+	}
+.flexslider_authors .flex-direction-nav a.flex-prev::before {
+		content: '';
+	}
+
+
 @media screen and (min-width: 1024px) {
 	.list_item{
 		display: inline-block;
@@ -428,5 +461,10 @@ main{
 		display: inline-block;
 		min-height: 300px;
 		vertical-align: top;
+		width: 24%;
 	}
+
+
+
+
 }

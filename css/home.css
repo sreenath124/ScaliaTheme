@@ -20,7 +20,7 @@ header {
     height: 80px;
     text-align: center;
     transition: all 0.1s linear;
-    z-index: 2;
+    z-index: 11;
 }
 
 .header_contents {
@@ -125,9 +125,6 @@ header {
     max-width: 900px;
     padding: 20px;
 }
-
-
-/* banner_content & section description has similar stylings */
 
 .buttons {
     border-radius: 4px;
@@ -541,7 +538,6 @@ input[type="text"] {
 
 .trial_input {
     width: 50%;
-    /* min-width: 300px; */
 }
 
 .free_trial_button {
@@ -553,8 +549,6 @@ input[type="text"] {
     background-size: contain;
     width: 100%;
     text-align: center;
-    /*     min-height: 700px;
- */
     padding: 40px 0;
 }
 

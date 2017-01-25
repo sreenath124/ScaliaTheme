@@ -35,9 +35,9 @@ $(document).ready(function() {
         itemMargin:10,
         slideshow: true,
         slideshowSpeed: 6000,
-        controlNav: false,
+        controlNav: true,
         directionNav: false,
-        maxItems:3
+        maxItems:5
     });
 
     $('.flexslider_client').flexslider({
