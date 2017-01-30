@@ -2,8 +2,8 @@ var cacheName = 'scalia-cahe';
 var filesToCache = [
 	'assets/banner_image.png',
   'assets/alert.png',
-  'assets/april_image.png',
-  'assets/bag.png'
+  'assets/april_image.jpg',
+  'assets/bag.jpg'
 ];
 
 self.addEventListener('install', function(e) {
