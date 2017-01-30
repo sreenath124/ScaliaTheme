@@ -3,7 +3,23 @@ var filesToCache = [
 	'assets/banner_image.png',
   'assets/alert.png',
   'assets/april_image.jpg',
-  'assets/bag.jpg'
+  'assets/bag.jpg',
+  'assets/rocket.png',
+  'assets/footer_background.png',
+  'assets/june_image.png',
+  'assets/2135.jpg',
+  'assets/may_image.jpg',
+  'assets/rocket_back.jpg',
+  'assets/rocket_no_line.jpg',
+  'assets/pencil.jpg',
+  'assets/clouds.jpg',
+  'assets/pic.jpg',
+  'assets/podl.png',
+  'assets/uk_flag.png',
+  'assets/jack.jpg',
+  'assets/jackie.jpg',
+  'assets/christian.jpg',
+  'assets/bulb.jpg'
 ];
 
 self.addEventListener('install', function(e) {
