@@ -19,7 +19,10 @@ var filesToCache = [
   'assets/jack.jpg',
   'assets/jackie.jpg',
   'assets/christian.jpg',
-  'assets/bulb.jpg'
+  'assets/bulb.jpg',
+  'js/script.js',
+  'css/home.css',
+  'css/reset.css'
 ];
 
 self.addEventListener('install', function(e) {
