@@ -11,6 +11,16 @@
     		"src" : "assets/scalia.png",
     		"size" : "200x200",
     		"type" : "image/png"
+    	},
+    	{
+    		"src" : "assets/scalia.png",
+    		"size" : "150x150",
+    		"type" : "image/png"
+    	},
+    	{
+    		"src" : "assets/scalia.png",
+    		"size" : "100x100",
+    		"type" : "image/png"
     	}
     ]
 }
