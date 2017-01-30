@@ -5,5 +5,12 @@
     "scope": "/",
     "display": "standalone",
     "background_color": "#2196F3",
-    "theme_color": "#2196F3"
+    "theme_color": "#2196F3",
+    "icons": [
+    	{
+    		"src" : "assets/scalia.png",
+    		"size" : "200x200",
+    		"type" : "image/png"
+    	}
+    ]
 }
