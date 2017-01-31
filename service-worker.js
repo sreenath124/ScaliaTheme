@@ -7,7 +7,7 @@ var filesToCache = [
   'assets/bag.jpg',
   'assets/rocket.png',
   'assets/footer_background.png',
-  'assets/june_image.png',
+  'assets/june_image.jpg',
   'assets/2135.jpg',
   'assets/may_image.jpg',
   'assets/rocket_back.jpg',
