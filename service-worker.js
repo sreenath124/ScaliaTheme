@@ -1,5 +1,6 @@
 var cacheName = 'scalia-cahe';
 var filesToCache = [
+  'assets/scalia.ico',
 	'assets/banner_image.png',
   'assets/alert.png',
   'assets/april_image.jpg',
@@ -20,9 +21,22 @@ var filesToCache = [
   'assets/jackie.jpg',
   'assets/christian.jpg',
   'assets/bulb.jpg',
+  'assets/scalia_logo.png',
+  'assets/scalia_logo_small.png',
+  'assets/map.png',
+  'assets/01-scalia-person.png',
+  'assets/02-scalia-person.png',
+  'assets/03-scalia-person.png',
+  'assets/04-scalia-person.png',
+  'assets/05-scalia-person.png',
+  'assets/06-scalia-person.png',
+  'assets/07-scalia-person.png',
+  'assets/08-scalia-person.png',
+  'assets/09-scalia-person.png',
   'js/script.js',
   'css/home.css',
-  'css/reset.css'
+  'css/reset.css',
+
 ];
 
 self.addEventListener('install', function(e) {
