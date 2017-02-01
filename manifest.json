@@ -1,7 +1,7 @@
 {
     "name": "Scalia Theme",
     "short_name": "Scalia",
-    "start_url": "/",
+    "start_url": "https://sreenath124.github.io/ScaliaTheme/index.html",
     "scope": "/",
     "display": "standalone",
     "background_color": "#2196F3",
